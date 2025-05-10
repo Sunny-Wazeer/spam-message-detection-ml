@@ -62,7 +62,7 @@ Used **TF-IDF Vectorization**:
   python
 tfidf = TfidfVectorizer(max_features=3000)
 X = tfidf.fit_transform(df['transformed_text']).toarray()
-```
+
 
 * Extracts up to 3000 most relevant terms
 * Converts text into numerical feature vectors
@@ -117,9 +117,9 @@ Make sure to install:
 pip install numpy pandas matplotlib seaborn nltk wordcloud scikit-learn
 
 
-## 📂 Folder Structure
+# 📂 Folder Structure
 
-```
+
 spam-detection/
 ├── spam.csv
 ├── model.pkl
@@ -130,9 +130,7 @@ spam-detection/
 
 
 
----
-
 ## 👨‍💻 Author
 
-**\[Your Name]** – 
-GitHub: [Sunny Wazeer](https://github.com/Sunny Wazeer)
+**\[Sunny Wazeer]** – 
+GitHub: [Sunny Wazeer](https://github.com/Sunny-Wazeer)
