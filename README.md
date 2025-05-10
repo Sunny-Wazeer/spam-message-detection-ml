@@ -1,5 +1,4 @@
-# Text-Base
-This is my first repository
+
 # 📧 Spam Message Detection Using Machine Learning
 
 This project focuses on building a **text classification system** to detect spam messages using Natural Language Processing (NLP) and Machine Learning. It leverages a dataset of SMS messages labeled as **"ham" (not spam)** or **"spam"**, and includes preprocessing, feature extraction, model training, evaluation, and deployment.
