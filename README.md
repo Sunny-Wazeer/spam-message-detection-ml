@@ -71,7 +71,7 @@ X = tfidf.fit_transform(df['transformed_text']).toarray()
 
 Split data:
 
-* X_train, X_test, y_train, y_test (80/20 split)
+ X_train, X_test, y_train, y_test (80/20 split)
 
 Trained and evaluated:
 
@@ -100,7 +100,7 @@ Serialized and saved:
 * Trained model → model.pkl
 * Vectorizer → vectorizer.pkl
 
-```python
+python
 import pickle
 pickle.dump(tfidf, open('vectorizer.pkl', 'wb'))
 pickle.dump(mnb, open('model.pkl', 'wb'))
@@ -131,5 +131,5 @@ spam-detection/
 
 ## 👨‍💻 Author
 
-**\[Sunny Wazeer]** – 
-GitHub: [Sunny Wazeer](https://github.com/Sunny-Wazeer)
+## [Sunny Wazeer]  
+GitHub: [Sunny Wazeer](https://github.com/SunnyWazeer)
